@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="icon" href="/images/logo.ico">
+	<link rel="stylesheet" href="../style.css">
+  <title> Part Two: Function </title> 
+</head>
+
+<body onload="loadRadioBtn(2)">
+
+	<!-- TITLE SECTION -->
+	<div class="title">
+		<!--LOGO-->
+		<img src="../images/farzana-logo.png" style='position:absolute; top:27px; left:22px; width:90px; height:54px; alt='/>
+    <img src="../images/farzana-logo.png" style='position:absolute; top:27px; right:22px; width:90px; height:54px; alt='/>
+		<h1> <a class="title-link" href="../index.html">Website Quality Assessor</a></h1>
+	</div>
+
+	<!-- NAV BAR -->
+	<div class="navBar">
+		<ul>
+			<li><a href="../index.html">Home</a></li>
+			<li><a class="active" href="pre-questionnaire.html">Questionnaire</a></li>
+			<li style="float:right"><a href="../help.html">Help</a></li>
+		</ul>
+	</div>
+
+	<!-- QUESTIONS -->
+	<!-- Note: &nbsp; forces a space between radio buttons -->
+
+	<main>
+		<p id="section-title">Function</p>
+
+		<p id="all-text">1. The website has functions that work as intended. </p>
+
+		<input type="radio" name="A1" id="A1_05" value="5"> Strongly Agree &nbsp;
+        <input type="radio" name="A1" id="A1_04" value="4"> Agree &nbsp;
+        <input type="radio" name="A1" id="A1_03" value="3"> Neutral &nbsp;
+        <input type="radio" name="A1" id="A1_02" value="2"> Disagree &nbsp;
+        <input type="radio" name="A1" id="A1_01" value="1"> Strongly Disagree &nbsp;
+        <input type="radio" name="A1" id="A1_00" value="0" checked="checked"> Not Applicable &nbsp;<br> <br>
+
+        <p id = "all-text">2. The website’s response time is under 2 seconds when something is clicked on.</p>
+
+        <input type="radio" name="A2" id="A2_05" value="5"> Strongly Agree &nbsp;
+        <input type="radio" name="A2" id="A2_04" value="4"> Agree &nbsp;
+        <input type="radio" name="A2" id="A2_03" value="3"> Neutral &nbsp;
+        <input type="radio" name="A2" id="A2_02" value="2"> Disagree &nbsp;
+        <input type="radio" name="A2" id="A2_01" value="1"> Strongly Disagree &nbsp;
+        <input type="radio" name="A2" id="A2_00" value="0" checked="checked"> Not Applicable &nbsp;<br><br>
+
+        <p id = "all-text">3. The website lets the user know when something does not work properly.</p>
+
+        <input type="radio" name="A3" id="A3_05" value="5"> Strongly Agree &nbsp;
+        <input type="radio" name="A3" id="A3_04" value="4"> Agree &nbsp;
+        <input type="radio" name="A3" id="A3_03" value="3"> Neutral &nbsp;
+        <input type="radio" name="A3" id="A3_02" value="2"> Disagree &nbsp;
+        <input type="radio" name="A3" id="A3_01" value="1"> Strongly Disagree &nbsp;
+        <input type="radio" name="A3" id="A3_00" value="0" checked="checked"> Not Applicable &nbsp;<br> <br>
+
+        <!--<p id="demo"></p>-->
+
+        <!-- BACK BUTTON -->
+        <button onclick="location.href='section-01.html'" id="Section-Back" class="button" type="button" >← Back</button>
+
+        <!-- NEXT BUTTON -->
+        <button onclick="handleNext(2)" id="Section-Next" class="button" type="button" >Next →</button>
+        <!--
+        <img src="../images/2.png" style='position:absolute; top: 540px; right: 500px; width:145px; height:115px; margin-left: auto; margin-right: auto;'/>-->
+      <img src="../images/2.png" style='display: block;margin-left: auto; margin-right: auto; width:290px; height:50px;'/>
+        
+
+  </main>
+    <script type="text/javascript" src="../script.js"></script>
+</body>
+    
+    
+</html>

@@ -1,0 +1,189 @@
+/*Yellow Code: #ffcb05 | Blue Code: #00274c */
+
+
+/* BODY DEFAULT */
+body 
+{
+  background-color: #ffcd0500;
+    outline-style: solid;
+    outline-color: #ffcb05;
+    outline-width: thick;
+}
+
+/* TITLE */
+.title
+{
+  text-align: center;
+  font-size: 1.25em;
+    font-family: "Franklin Gothic";
+    background-color: #ffcb05;
+    color: #00274c;
+    
+}
+
+/* TITLE ROUTE TO HOMEPAGE */
+.title-link, .title-link:hover, .title-link:visited {
+  background-color: transparent;
+  text-decoration: none;
+  color: #00274c;
+}
+
+/* NAV SECTION */
+.navBar 
+{
+  font-family: "Franklin Gothic";
+  text-transform: uppercase;
+  margin: 0 auto;
+}
+
+/* MENU NAV BAR */
+.navBar ul 
+{
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  background-color: #00274c;
+  width: 100%;
+  outline-style: solid;
+  outline-color: #00274c;
+  outline-width: thick;
+}
+
+/* MENU NAV LIST */
+.navBar ul li {
+  float: left;
+  padding: 0 auto;
+  display: inline;
+  border-right: 2px solid #ffcb05;
+}
+
+.navBar ul li a {
+  display: block;
+  margin: 0 auto;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+a:hover { 
+  background-color: #ffcb05;
+  font-weight: bold;
+}
+
+.active {
+  background-color: #ffcb05;
+}
+
+main {
+  width: 900px;
+  margin: 0 auto;
+  margin-top: 25px;
+  /* border: 2px solid black; */
+  padding: 5px 5px;
+  display: block;
+}
+
+#home-text {
+    font-family: "Franklin Gothic";
+    font-size: 1.75em;
+    text-align: left;
+    border-top-style: dotted;
+    border-right-style: solid;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+    border-color: #00274c;
+    padding: 2em 2em;
+}
+
+#resultScore {
+    font-family: "Franklin Gothic";
+    font-size: 1.75em;
+    text-align: left;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-color: #00274c;
+    padding: 2em 2em;
+}
+
+#all-text{
+  font-family: "Franklin Gothic";
+    font-size: 1.25em;
+}
+
+#section-title{
+  font-family: "Franklin Gothic";
+  font-size: 1.75em;
+  font-weight:bold;
+  text-align: left;
+  padding: .1em .1em;
+}
+
+/* BUTTON SECTION*/
+.button {
+  text-transform: uppercase;
+  background-color: #00274c;
+  border: none;
+  color: white;
+  float: center;
+  padding: 15px 67px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 20px;
+  position: center;
+  vertical-align: middle;
+  display:inline-block;
+  cursor: pointer;
+  margin-left: 150px;
+  font-family: "Franklin Gothic";
+}
+
+.containter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+/*
+.buttonNext{
+  text-transform: uppercase;
+  background-color: #00274c;
+  border: none;
+  color: white;
+  padding: 15px 62px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  margin: auto;
+  display:block;
+  cursor: pointer;
+  font-family: "Franklin Gothic";
+
+  position: relative;
+  top: -55px;
+  left: -300px;
+}*/
+
+button:hover{
+  background-color: #000000;
+  font-weight: bold;
+}
+
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+

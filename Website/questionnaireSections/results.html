@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="icon" href="/images/logo.ico">
+  <link rel="stylesheet" href="../style.css"> 
+  <title> Results!</title>    
+</head>
+<body>
+
+    <!-- TITLE SECTION -->
+    <div class="title">
+    <!--LOGO-->
+		<img src="../images/farzana-logo.png" style='position:absolute; top:27px; left:22px; width:90px; height:54px; alt='/>
+    <img src="../images/farzana-logo.png" style='position:absolute; top:27px; right:22px; width:90px; height:54px; alt='/>
+      <h1> <a class="title-link" href="../index.html">Website Quality Assessor</a></h1>
+    </div>
+
+    <!-- NAV BAR -->
+    <div class="navBar">
+      <ul>
+        <li><a href="../index.html" >Home</a></li>
+        <li><a class="active" href="pre-questionnaire.html">Questionnaire</a></li>
+        <li style="float:right"><a  href="../help.html">Help</a></li>
+      </ul>
+    </div>
+    
+    
+    <main>
+
+    <p id="section-title">RESULTS</p>
+
+
+    <script type='text/javascript' src='../script.js'></script> 
+          <p id="resultScore">You have completed the questionnaire!
+            Your score is:</p>
+
+        <p id="section-title" > DETAILS: </p>
+        <div id= "resultScore", class="row">
+        <div class="column"><u>Section</u>
+          <p>Content:</p>
+          <p>Function:</p>
+          <p>Structure:</p>
+          <p>Usabilty:</p>
+          <p>Navigability:</p>
+          <p>Performance:</p>
+          <p>Compatibility:</p>
+          <p>Interoperability:</p>
+          <p>Security</p>
+        </div>
+
+        <div class="column"><u>Result</u>
+        <p id="sec1"> 0/0</p>
+        <p id="sec2"> 0/0</p>
+        <p id="sec3"> 0/0</p>
+        <p id="sec4"> 0/0</p>
+        <p id="sec5"> 0/0</p>
+        <p id="sec6"> 0/0</p>
+        <p id="sec7"> 0/0</p>
+        <p id="sec8"> 0/0</p>
+        <p id="sec9"> 0/0</p>
+
+        </div>
+        
+        <div class="column"><u>Percentage</u>
+        <p id="perc1"> 0%</p>
+        <p id="perc2"> 0%</p>
+        <p id="perc3"> 0%</p>
+        <p id="perc4"> 0%</p>
+        <p id="perc5"> 0%</p>
+        <p id="perc6"> 0%</p>
+        <p id="perc7"> 0%</p>
+        <p id="perc8"> 0%</p>
+        <p id="perc9"> 0%</p>
+        </div>
+
+
+
+<!-- BACK BUTTON -->
+        <button onclick="printScreen()" id="Section-Print" class="button" type="button" >Print</button>
+
+<!-- CONFIRM BUTTON  need results page -->
+        <button onclick="resetQuestionnaire()" id="Section-Restart" class="button" type="button" >Restart</button>
+      
+          <!--p style= 'size: 25 px;'>HERE</p>
+          
+    <br><br>
+
+        <!--<p id="resultScore"></p>-->
+        <!--  <script type="text/javascript">
+              document.write(document.getElementById("resultScore"));
+            </script> -->
+
+    </main>
+    <script type="text/javascript" src="../script.js"></script>
+</body> 
+    
+</html>
